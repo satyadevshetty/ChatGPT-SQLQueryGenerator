@@ -1,0 +1,16 @@
+Tables:	
+	"customers": {
+        "id": "INTEGER PRIMARY KEY",
+        "name": "VARCHAR(255)",
+        "email": "VARCHAR(255)",
+    },
+    "orders": {
+        "id": "INTEGER PRIMARY KEY",
+        "customer_id": "INTEGER REFERENCES customers(id)",
+        "product_id": "INTEGER",
+        "quantity": "INTEGER",
+        "total_amount": "FLOAT",
+    }
+	
+Query:
+	retrieve the usernames of all users who placed orders with a total amount greater than 200
