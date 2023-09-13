@@ -13,7 +13,7 @@ Generate SQL queries using Generative AI built with Python and Streamlit
 
 **v.0.0.1** - ([Sample SQL Schema & Query : customers & orders](./assets/example_tables_query.txt))
 
-<p align = "center"><img src = "./assets/snapshots/example_query.png" height = 300 width = 600></p>
+<p align = "center"><img src = "./assets/snapshots/example_query.PNG" height = 300 width = 600></p>
 
 
 
